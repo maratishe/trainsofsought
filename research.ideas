@@ -1,0 +1,82 @@
+vne.dongkun	vne, optimization, cloud, ieiceconf		use logs when calculating ranks, results in better selections
+**vne.logrank	vne, optimization, todo		continue on vne.dongkun, use the comparison software you wrote to show the difference between traditional and log-based rank calculations, explains the usefulness
+**vne.ospf	 	vne, ospf, cross-layer, optimization, game theory, todo			the main idea is to see how vne intreacts with ospf and whether one optimization affects the other
+
+**cdn.errorprop 		cdn, measurement error, estimation error, error propagation, todo		to estimate end-to-end error in QoS-QoE mapping
+cdn.player		cdn,html5,media player,stream aggregation, software, ieiceconf, cloud		Building a Media Player in Browser using HTML5 WebWorkers
+*cdn.multisource.cloud	multisource aggregation, multisource streaming, cloud-based streaming, book, journal, newidea, inreview		Multi-Source Stream Aggregation in the Cloud
+
+cloud.weather		performance model, performation visualization, cloud performance, ieiceconf, newidea		Cloud Weather System as a Futuristic Perfomance Model -- analyze perforamnce of the entire cloud infrastructure, including networks, datacenters, etc.
+cloud.migavoid 		VM migration, migration avoidance, traffic analysis, ieiceconf		VM Migration Avoidance based on Flow Workload Classification -- use traffic analysis, cluster flows based on their throughput, assumee homogeneous VMs/apps and avoid migration by traffic shaping or other alternative actions
+*cloud.greenmig		cloud operation, energy efficiency, VM migration, optimization, journal, software, github, inreview		Optimization for Energy-Efficient Virtual Machine Migration in the Cloud
+cloud.greenmig2		cloud operation, energy efficiency, VM migration, optimization, software, github, rejected		On the Failure of Bin Packing and Classic VM Migration Optimization to Make Clouds Green
+
+psamp.errorcontrol		psamp, sampling error, error modeling, traffic processing, flow accounting, nsken 		Control over Precision of Flow Volume Sampling using Random Batch Sampling
+psamp.timevscount		psamp, time-based sampling, count-based sampling, packet sampling, packet capture, sampling error, cqken		Time-Based Emulation of Counter-Based Packet Sampling
+psamp.fair			psamp, batch capture, batch sampling, sampling error, fair sampling, ieiceconf		Alternative Packet Sampling for Improved Fairness and Function (Society)
+**psamp.bloom		bloom filter, data streaming, packet sampling, psamp, todo   	the main idea is to use extremely efficient bloom structure in place of hashing to process the stream of packets ... might be similar to data streaming
+
+
+packets.flash		traffic modeling, flash crowd, traffic hotspots, software, models, cqken 	Popularity-Based Modeling of Flash Events in Synthetic Packet Traces
+
+tomo.mobile		tomography, network coordinates, end-to-end delay, wireless networks, rcsken		A Link-Based Network Coordinate System for Mobility
+**tomo.missingvalues		pca, end-to-end delay matrix, missing values, tomography, todo		the main problem is what to do with missing values in e2e delay matrices
+
+probe.complexity	active probing,signal complexity,PE,entropy, software, models, itken		Complexity as E2E Network Performance Estimator
+*probe.complexity2		active probing,signal complexity,PE,entropy, software, models, journal, inreview		End-to-End Network Performance Estimation Using Signal Complexity
+
+vstream.depty		video streaming,cdn,dependability,availability,quality modeling, models, dcken		Advances in HTML5 and P2P Video Streaming from the Viewpoint of Network Dependability and Availability
+*vstream.vbr		video streaming, variable bitrate, scalable video, streaming optimization, software, journal, inreview  		A Method for Reliable P2P Video Streaming using Variable Bitrate Video Formats 		
+*vstream.vbr.socialstreaming		cdn, video streaming, p2p streaming, social streaming, variable bitrate, scalable video, journal, inreview 		Social P2P Streaming Made Possible via the Diversity Provided by Scalable Video
+**vstream.basketsandeggs 		cdn, video streaming, multisource streaming, p2p streaming, reliability modeling, todo		how to configure streaming sources in such a way that eggs are not put in one basket, so, more resilient combination of sources
+
+webapps.html5.aggregator		html5, webapp, content aggregation, web sockets, web workers, software, intconf, github, inreview 		A Practical Software Model for Content Aggregation in Browsers using Recent Advances in HTML5
+*webapps.html5.thrutests	html5,web sockets, web workers, throughput, browser experiment, software, journal, github, inreview		Experiments with Application Throughput in a Browser with Full HTML5 Support
+
+mapguide.survey	map guidance, distance vs time, web survey, software, hiken		Distance versus Time in Map Guidance -- shows that people want to see time in map guidance, future reserach should have models of travel time prediction
+
+viz.deptest		pca, dependency test, dependency visualization, multidimensional dependency, software, models, kbseken		Analysis of Multidimensional Dependencies as a Signal Processing Problem
+
+t2p2k.first		elementary school education, t2p2k, digital classroom, software, etken		Time to Play to Know (T2P2K) : First Report on a Digital Classroom Project in Grades 4 through 6 of Elementary Schools
+**t2p2k.waprobe		school education, t2p2k, digital classroom, webapp, wireless access, performance measurement, software, hardware, todo		the idea is to built and measure a wireless digital classroom
+
+sgraph.sneimod	graph neighborhood, social graph, random graphs, models, nlcken		Random Graphs with Realistic Neighborhood Modeling based on Online Surveys ... future research should have better neighborhood models
+
+surveyanals.jquery	survey processing, data processing, data flow, natural language, software, models, nlcken		New Dataflow UML for Description and Modeling of Survey Data Processing .. follow up with a better software package
+
+pasta.trajperf		pasta, random sampling, trajectory sampling, performance modeling, inken		Randomness Optimizer for Trajectory Performance Sampling ... follow up with a practical scenario as multi-domain e2e path probing as part of NGN
+
+pracqos.basics		layer2, layer3, qos provisioning, practical qos, end-to-end qos, hardware, software, pnken		Analytical Models for L2 versus L3 QoS Provisioning ... many subtopics in this big area
+pracqos.flowconcap	end-to-end qos, data centers, cloud performance, qos context, packet capture, software, ieiceconf 		Capturing QoS Context by Alternative Flow Monitoring in Clouds (Society) ... flow sampling intervals and realtime context creation and database storage
+*pracqos.m2mcapture	end-to-end qos, data centers, cloud performance, qos context, many-to-many pattern, packet capture, software, hardware, journal, inreview	 A Method for Online Many-to-Many Communication Pattern Capture and Aggregation ... model of datacenter which captures m2m patterns and uses them to vidsualize e2e qos in real time 
+*pracqos.e2ecapture		end-to-end qos, data centers, cloud performance, qos context, one-to-many pattern, packet capture, software, hardware, models, journal, inreview		A Holistic Community-Based Architecture for Measuring End-to-End QoS at Data Centers ... similar to m2m, also captures o2m patterns and uses them to visualize e2e qos of services
+**pracqos.traffic.memoryless	memoryless process, data streaming, packet capture, traffic statistics, todo		the main idea is to extract as much statistics from traffic as possible without using much memory -- similar goal to that of data streaming
+**pracqos.traffic.chaos			packet capture, anomaly detection, chaos theory, traffic as chaos, traffic modeling, traffic visualization, todo		the main idea is to use chaos theory in traffic modeling subject of anomaly detection
+**pracqos.pcap.load		packet capture, processing load, load modeling, performance modeling, models, todo			the overall idea is to model loads in traffic capture and processing ... the load can then be optimize to improve efficiency .. NTT research is related to this topic
+**pracqos.pcap.fasthash		packet capture, processing load, fast hashing, performance modeling, models, todo		the main idea is to create faster hashing methods and shorter keys to improve context samling
+*pracqos.pcap.ondemand		packet capture, on-demand capture, multicore capture, software, intconf, inreview				
+**pracqos.pcap.ondemand.test		packet capture, on-demand capture, multicore capture, software, todo 		a sub-idea of the parent node, tests how quickly PF_RING can be summoned on demand
+**pracqos.pcap.ondemand.prediction		packet capture, on-demand capture, multicore capture, software, todo 		a sub-idea of the parent node, makes algorithms for creating optimal schedules of overlapping capture processes
+**pracqos.pcap.datastream				packet capture, data streaming, realtime capture, software, models, todo			see if you can do something new in data streaming when applied to packet traffic analysis
+
+p2pwifi.cloudmeeting.first	wifi direct, multiple connectivity, google drive, content aggregation, virtual wireless access, software, rcsken		On the Possibility of Virtual Wireless Access as Part of a Practical Usecase -- Yet Anotsher Practical Use for WiFi Hotspot and WiFi P2P Specs -- ... follow up with wifi direct implementation and expend pratical applciations
+
+*ecar.v2hplus		its, electric car, battery replacement, v2h, models, journal, inreview  		A Model and Simulation of EV Use in Environments with V2H and Battery Replacement Infrastructure
+
+box.homegate		home gateway, meter, qos provisioning, qos policy, packet capture, software, hardware, intconf		A Home Gateway Box with Meter, Probe and L2 QoS Policy Edge, home gateway has L2 policy edge, but also performs active measurement and accounting on qos flows
+
+**ga.evolution		genetic algorithm, optimization, genes, evolution, software, todo		GA is normally a closed-loop, this research is to make GA more human-like with the concepts of dormant genes which can spring back to life faster than creating brand-new solutions
+
+**opportunetstic.basics			opportunistic networking, multi-flow aggregation, software, hardware, todo		client uses all available connections, aggregation of content from multiple parallel flows, etc. ... one scenario could be to use WiFi together with WiFi Direct
+		
+**e2emodels.tcp		packet flows, throughput modeling, TCP throughput, models, todo		better TCP throughput models than the ones present, in fact, some of the models are invalid, so this resaerch should create valid models
+
+**smil.media.perftest		smil, multimedia session, performance testing, performance modeling, performance benchmark, software, todo		use SMIL as basis for benchmarking multimedia application performance
+
+**adhoc.e2e.batterydiff		adhoc, aodv, e2e path establishment, battery differential, todo		use battery differential (speed of discharge) to model path cost, it is more realistic than in other cases
+**adhoc.e2e.pathbudget		adhoc, aodv, e2e path establishment, backup path, path cost budget, todo 	 	the main idea is to prepare backup paths based on cost budget, if a path with better budget is found, one should switch over to it
+**adhoc.energybalance		adhoc, aodv, battery depletion, backup path, energy efficiency, todo		the main idea is to distribute battery consumption evenly across the network, suitable for mesh networks
+
+**econ.hourglass	 	hourglass game, game theory, resource optimization, games, todo 			the main idea is the hourglass optimization, planning and use both have periods defined by the hourglass, early change cases shorter time in the next cycle, see if this can be useful for planning network resources	
+
+
